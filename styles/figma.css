@@ -79,6 +79,11 @@ nav {
     padding-bottom: 35px;
 }
 
+.logo-img {
+    background: #000000;
+    color: #000000;
+}
+
 .hero-tittle {
     color: #000000;
     font-size: 60px;
@@ -363,6 +368,7 @@ nav {
 
 .number {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background: #B9FF66;
     padding: 41px 57px 30px 60px;
@@ -371,6 +377,13 @@ nav {
     border-radius: 45px;
     border-bottom: 1px solid #000000;
     box-shadow: 0 10px #191A23;
+}
+
+.during-des {
+    border-top: 1px solid #000000;
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .initial {
@@ -475,12 +488,15 @@ nav {
     padding-top: 28px;
 }
 
+.result {
+    background: #191A23;
+    border-radius: 45px;
+}
+
 .working {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
-    background: #191A23;
-    border-radius: 45px;
     padding-top: 84px;
 }
 
@@ -502,6 +518,205 @@ nav {
     font-size: 20px;
     font-weight: 400;
     color: #FFFFFF;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    padding-top: 124px;
+    padding-bottom: 68px;
+}
+
+.fa-arrow-left {
+    padding-right: 189px;
+}
+
+.fa-arrow-right {
+    padding-left: 189px;
+}
+
+.fa-star {
+    padding-right: 19px;
+}
+
+.fa-star:hover {
+    color: #B9FF66;
+}
+
+.contact-us {
+    background: #F3F3F3;
+}
+
+.radio {
+    display: flex;
+    gap: 10px;
+}
+
+input[type=radio]#Yellow {
+    accent-color: #B9FF66;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 45px;
+}
+
+
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+
+.input-tittle {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+#name,
+#message {
+    width: 556px;
+    height: 59px;
+    border: 1px solid #000000;
+    border-radius: 14px;
+    padding: 18px 30px 18px 30px;
+    gap: 10px;
+}
+
+#message {
+    height: 190px;
+    margin-bottom: 40px;
+}
+
+.mark {
+    margin-top: 60px;
+    padding-left: 395px;
+}
+
+.vector {
+    /* padding-bottom: 233.68px; */
+}
+
+.fa-icon {
+    display: flex;
+    gap: 20px;
+    max-width: 30px;
+    height: 30px;
+    padding-right: 60px;
+    color: #FFFFFF;
+}
+
+footer {
+    margin-top: 140px;
+}
+
+.request {
+    background: #191A23;
+    border-radius: 45px 45px 0 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 60px 66px 60px;
+}
+
+.footer-nav ul {
+    display: flex;
+}
+
+.footer-nav ul li {
+    list-style: none;
+    padding-right: 40px;
+    text-decoration: underline;
+    color: #FFFFFF
+}
+
+.info {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+    align-items: center;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 50px;
+}
+
+.info-tittle {
+    background: #B9FF66;
+    max-width: 126px;
+    height: 26px;
+    color: #000000;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.info-des {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 27px;
+    padding-bottom: 20px;
+}
+
+.info-des-tittle {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.info-input {
+    display: flex;
+    justify-content: center;
+    background: #292A32;
+    width: 634px;
+    height: 184px;
+    align-items: center;
+    gap: 10px;
+}
+
+#email {
+    max-width: 285px;
+    border: 1px solid #FFFFFF;
+    padding: 22px 35px;
+    border-radius: 14px;
+    background: #292A32;
+}
+
+#sub {
+    max-width: 285px;
+    height: 67px;
+    color: #000000;
+    background: #B9FF66;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 14px;
+}
+
+.last-text {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-des {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-left: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* responsive media query */
