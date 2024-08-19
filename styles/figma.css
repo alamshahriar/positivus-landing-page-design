@@ -824,6 +824,10 @@ footer {
         padding-left: 15px;
     }
 
+    .item img {
+        max-width: 130px;
+    }
+
     .first-search,
     .thrid-search,
     .second-search {
@@ -833,8 +837,48 @@ footer {
 
     .search-title,
     .second-title,
+    .thrid-title {
+        max-width: 190px;
+        height: 60px;
+        padding: 5px;
+    }
+
+    .common-btn {
+        font-size: 15px;
+    }
+
+    .search-title,
+    .second-title,
     .and-title,
     .thrid-title {
+        font-size: 15px;
+    }
+
+    .case-tittle,
+    .services-tittle {
+        font-size: 30px;
+    }
+
+    .work-tittle {
+        max-width: 216px;
+    }
+
+    .traffic:nth-child(2) {
+        padding: 0 5px;
+    }
+
+    .number,
+    .best {
+        max-width: 230px;
+        padding: 30px;
+    }
+
+    .experience {
+        padding: 20px;
+    }
+
+    .experience-des,
+    .experience-time-des {
         font-size: 15px;
     }
 
